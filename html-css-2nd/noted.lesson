@@ -1,0 +1,22 @@
+Review Visual Rules
+Incredible work! You used CSS to alter text and images on a website. Throughout this lesson, you learned concepts including:
+The 
+1.Preview: Docs Loading link descriptionfont-family
+ property defines the typeface of an element.
+2.Preview: Docs Loading link descriptionfont-size
+ controls the size of text displayed.
+3.Preview: Docs Loading link descriptionfont-weight
+ defines how thin or thick text is displayed.
+4.The Preview: Docs Loading link description text-align
+ property places text in the left, right, or center of its parent container.
+5.Text can have two different color attributes: 
+Preview: Docs Loading link description color and 
+6.Preview: Docs Loading link description
+background-color. color defines the color of the text, while background-color defines the color behind the text.
+CSS can make an element transparent with the 
+7.Preview: Docs Loading link description
+opacityproperty.
+8.CSS can also set the background of an element to an image with the 
+Preview: Docs Loading link description
+background-imageproperty.
+9The !important flag will override any style, however it should almost never be used, as it is extremely difficult to override.

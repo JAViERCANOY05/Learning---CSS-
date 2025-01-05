@@ -1,0 +1,79 @@
+
+*
+{
+    font-family: cursive;
+}
+p{
+    font-size: 15px;
+    font-style: oblique;
+
+}
+.image-back {
+    background-image: url("../images/back3_.png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+  
+    
+}
+.image{
+    display: flex;
+    justify-content: end;
+}
+.nav-list{
+display: flex;
+list-style: none;
+justify-content: space-evenly;
+text-transform: capitalize;
+background-color: aquamarine;
+border: 2px;
+border-radius: 10px;
+padding: 5px;
+}
+
+
+li {
+    position: relative; /* Ensure the li element is positioned relative */
+    padding: 3px; /* Adds space for the border without causing layout shift */
+    cursor: pointer;    
+font-family: Arial, Helvetica, sans-serif !important;
+color: rgb(255, 255, 255);
+}
+li:hover{
+color: red;
+}
+
+li::after {
+    content: ''; /* Required for pseudo-element */
+    position: absolute; /* Position the pseudo-element relative to the li */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Make the pseudo-element span the entire width of the li */
+    height: 2px; /* Set the height of the border */
+    background-color: goldenrod; /* Set the border color */
+
+    transform: scaleX(0); /* Initially, the border is not visible */
+    transition: transform 0.3s ease-in-out; /* Adds smooth transition */
+    transform-origin: bottom right; /* Ensures the border scales from the right - defualt is center !  */
+    cursor: pointer;
+
+}
+
+li:hover::after {
+    transform: scaleX(1); /* Makes the border visible on hover */
+
+}
+
+
+.main{
+padding: 10px;
+    text-align: right;
+    color: aliceblue;
+}
+
+body{
+    padding: 20px;
+    background-image: url("../images/nature.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
