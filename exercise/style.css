@@ -41,8 +41,10 @@ color: rgb(255, 255, 255);
 }
 li:hover{
 color: red;
+
 }
 
+/* after wala pa  */
 li::after {
     content: ''; /* Required for pseudo-element */
     position: absolute; /* Position the pseudo-element relative to the li */
@@ -58,10 +60,9 @@ li::after {
     cursor: pointer;
 
 }
-
+/* ug ma hover na */
 li:hover::after {
     transform: scaleX(1); /* Makes the border visible on hover */
-
 }
 
 
