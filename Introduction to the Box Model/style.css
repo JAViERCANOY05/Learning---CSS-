@@ -16,6 +16,7 @@ body {
     padding: 20px;
   }
   
+ 
   .navigation  li.logo {
     color: black;
     font-size: 18px;
@@ -117,3 +118,11 @@ body {
     border: 1px solid red;
     color: red;
   }
+
+div.yeah
+{
+  width: 100px;
+  margin: 0 auto;
+}
+
+
