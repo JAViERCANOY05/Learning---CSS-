@@ -1,0 +1,63 @@
+.body-main{
+    border: 2px solid red;
+    margin: 0;
+    padding: 0;
+}
+.one{
+
+    height:  500px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.one-{
+
+    border: 2px solid green;
+    height:  500px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.two-{
+
+    border: 2px solid rgb(247, 13, 149);
+    height:  500px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+   
+    height:  500px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-1{
+    
+    border:2px blue dotted;
+     display:  flex;
+     justify-content: center;
+}
+.image-1 div{
+    border: 2px black solid ;
+    height: 100px;
+}
+.num1{
+    margin-right: 10px;
+}
+.num2{
+
+    margin-left:20px ;
+}
+p {
+    
+    min-width: 300px;
+    max-width: 600px;
+
+    /* min-height: 150px;
+    max-height: 100px; */
+  }

@@ -48,3 +48,14 @@ Nested elements can be selected by separating selectors with a space.
 Multiple unrelated selectors can receive the same styles by separating the selector names with commas.
 Great work this lesson. 
 With this knowledge, you’ll be able to use CSS to change the look and feel of websites to make them look great!
+
+#day 3 
+Margin Collapse
+
+As you have seen, 
+Preview content is loading
+paddingis space added inside an element’s 
+Preview: Docs Loading link descriptionborder, while Preview content is loading
+marginis space added outside an element’s border. One additional difference is that top and bottom 
+Preview: Docs Loading link descriptionmargins
+, also called vertical margins, collapse, while top and bottom padding does not.
