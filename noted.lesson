@@ -59,3 +59,14 @@ Preview: Docs Loading link descriptionborder, while Preview content is loading
 marginis space added outside an element’s border. One additional difference is that top and bottom 
 Preview: Docs Loading link descriptionmargins
 , also called vertical margins, collapse, while top and bottom padding does not.
+
+#day 4 
+Make some adjustments to the code in the code editor. 
+See if you can improve the appearance of the page by changing the following properties:
+
+width
+height
+padding
+border
+margin
+overflow

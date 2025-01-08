@@ -1,3 +1,7 @@
+
+* {
+    box-sizing: border-box;
+  }
 .body-main{
     border: 2px solid red;
     margin: 0;
@@ -5,15 +9,16 @@
 }
 .one{
 
-    height:  500px;
+    height:  200px;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+    
 }
 .one-{
 
     border: 2px solid green;
-    height:  500px;
+    height:  200px;
     width: 100px;
     display: flex;
     justify-content: center;
@@ -23,7 +28,7 @@
 .two-{
 
     border: 2px solid rgb(247, 13, 149);
-    height:  500px;
+    height:  200px;
     width: 100px;
     display: flex;
     justify-content: center;
@@ -31,7 +36,7 @@
 }
 .two{
    
-    height:  500px;
+    height:  200px;
     display: flex;
     justify-content: center;
 }
@@ -61,3 +66,42 @@ p {
     /* min-height: 150px;
     max-height: 100px; */
   }
+
+  .app {
+    /* visibility: none; */
+    display:  none;
+  }
+  ul{
+    display:  flex;
+    flex-direction: column;
+  }
+  li{
+    padding: 2px;
+    list-style: none;
+  }
+  .content{
+    height: 200px;
+    overflow: scroll;
+   
+}
+.content div{
+    display: flex;
+    justify-content: center;
+}
+  p{
+    padding: 50px;
+    text-align: center;
+  }
+  h1 {
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    
+    display: flex; /* Add flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+  }
+  
