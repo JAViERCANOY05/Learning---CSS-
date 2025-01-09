@@ -70,3 +70,18 @@ padding
 border
 margin
 overflow
+#day 5 
+In this lesson, you will learn five properties for adjusting the position of HTML elements in the browser:
+
+position :
+          1.absolute
+          2.relative
+          3.fixed
+          4.sticky
+          5.static - sa the default value ! ! ! 
+display
+z-index
+float
+
+//ag z-index : -1 ; diay kay ang iyang
+ bahaviour is mo move forward ang item or a content 
