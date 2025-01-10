@@ -1,0 +1,32 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    
+}
+.welcome{
+    border: 2px solid black;
+    position: relative;
+    padding: 40px;
+    top: 120px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.question{
+
+    position: relative;
+    top: 120px;
+    border: 2px solid black;
+    background-color: rgb(169, 241, 0);
+
+
+
+}

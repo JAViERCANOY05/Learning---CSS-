@@ -74,10 +74,15 @@ overflow
 In this lesson, you will learn five properties for adjusting the position of HTML elements in the browser:
 
 position :
-          1.absolute
-          2.relative
-          3.fixed
-          4.sticky
+          1.absolute - bahaviour niya is siya mag boot sa iyang gusto
+          2.relative : normal flow ra ang behaviour 
+          then murag di siya maka hawa sa content parent 
+          3.fixed : magamit sa header or footer ,
+          mo fixed siya , tas maka boot ka asa ibutang
+           top bot r and l maka scroll ka nga then ang ge 
+           fixed nimo mo stay kung asa nimo siya eh display
+          4.sticky : is kung ma sticky ka top-10 pag scroll nimo if mo
+          abot nakas top-10 mo sticky siya diha hantud sa imong scroll mo uban
           5.static - sa the default value ! ! ! 
 display
 z-index
