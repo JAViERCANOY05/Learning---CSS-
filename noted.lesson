@@ -90,3 +90,85 @@ float
 
 //ag z-index : -1 ; diay kay ang iyang
  bahaviour is mo move forward ang item or a content 
+ #day 6
+ What Makes an Element "Positioned"?
+An element becomes positioned when its position property is 
+set to anything other than static (the default). Once positioned,
+ you can use the offset properties (top, right, bottom, left) to control where it appears.
+
+ - >  Why Use Positioned Elements?
+      To create layouts (e.g., sidebars, headers).
+      To create floating elements (e.g., buttons, modals).
+      To control overlap and z-index (stacking order).
+Types of Positioning
+
+Static (default):
+                    Every element is positioned normally in the document flow.
+                    No special positioning is applied.
+                    Example:
+                    css
+                    Copy code
+                    element {
+                      position: static; /* Default value */
+                    }
+Relative:
+                    The element is positioned relative to its original position in the document.
+                    It stays in the flow of the document but can be shifted using top, right, bottom, or left.
+      2nd Oponion - > It means the element is first laid out in its default position within the normal 
+                    document flow, as if it had no positioning applied.
+                    Example:
+                    css
+                    Copy code
+                    element {
+                      position: relative;
+                      top: 10px; /* Moves down 10px from its original position */
+                    }
+Absolute:
+                    The element is removed from the document flow and positioned
+                     relative to its nearest positioned ancestor 
+                     (an ancestor with position: relative, absolute, or fixed).
+                    If no positioned ancestor exists, it positions itself relative to the <html> (root) element.
+                    - ikaw maka boot asa ibutang tas dili siya apil 
+                    Example:
+                    css
+                    Copy code
+                    element {
+                      position: absolute;
+                      top: 20px; /* 20px from the top of the nearest positioned ancestor */
+                    }
+Fixed:
+                    The element is removed from the document flow and positioned 
+                    relative to the viewport (the visible part of the browser).
+                    It doesn’t move when scrolling.
+      2nd Oponion - > di sya mo sabay sa scroll mo stay lang siya kung asa siya ge position ! ! ! 
+                    Example:
+                    css
+                    Copy code
+                    element {
+                      position: fixed;
+                      bottom: 0;
+                      right: 0; /* Fixed to the bottom-right corner of the screen */
+                    }
+Sticky:
+                      A hybrid of relative and fixed.
+                      The element behaves like relative until you scroll to a specific
+                       point, after which it "sticks" like fixed within its container.
+     2nd Oponion - > ma apil siya sa scroll until ma abot siya kung asa siya ge position ! ! !
+                      Example:
+                      css
+                      Copy code
+                      element {
+                        position: sticky;
+                        top: 10px; /* Starts sticking 10px from the top of its container */
+                      }
+-- NOTED --  
+Since static and relative positioned elements stay in the normal flow of the document,
+ when a user scrolls the page (or parent element) these elements will scroll too.
+ And since fixed and absolute positioned elements are removed from the document flow,
+ when a user scrolls, these elements will stay at their specified offset position.
+
+ The sticky value is another position value that keeps an element in the document flow as the user scrolls,
+  but sticks to a specified position as the page is scrolled further. 
+  This is done by using the sticky value along with the familiar offset properties,
+   as well as one new one.
+                  
