@@ -102,7 +102,7 @@ set to anything other than static (the default). Once positioned,
       To control overlap and z-index (stacking order).
 Types of Positioning
 
-Static (default):
+ 1. Static (default):
                     Every element is positioned normally in the document flow.
                     No special positioning is applied.
                     Example:
@@ -111,7 +111,7 @@ Static (default):
                     element {
                       position: static; /* Default value */
                     }
-Relative:
+2. Relative:
                     The element is positioned relative to its original position in the document.
                     It stays in the flow of the document but can be shifted using top, right, bottom, or left.
       2nd Oponion - > It means the element is first laid out in its default position within the normal 
@@ -123,7 +123,7 @@ Relative:
                       position: relative;
                       top: 10px; /* Moves down 10px from its original position */
                     }
-Absolute:
+3. Absolute:
                     The element is removed from the document flow and positioned
                      relative to its nearest positioned ancestor 
                      (an ancestor with position: relative, absolute, or fixed).
@@ -136,7 +136,7 @@ Absolute:
                       position: absolute;
                       top: 20px; /* 20px from the top of the nearest positioned ancestor */
                     }
-Fixed:
+4. Fixed:
                     The element is removed from the document flow and positioned 
                     relative to the viewport (the visible part of the browser).
                     It doesn’t move when scrolling.
@@ -149,7 +149,7 @@ Fixed:
                       bottom: 0;
                       right: 0; /* Fixed to the bottom-right corner of the screen */
                     }
-Sticky:
+5. Sticky:
                       A hybrid of relative and fixed.
                       The element behaves like relative until you scroll to a specific
                        point, after which it "sticks" like fixed within its container.
@@ -171,4 +171,42 @@ Since static and relative positioned elements stay in the normal flow of the doc
   but sticks to a specified position as the page is scrolled further. 
   This is done by using the sticky value along with the familiar offset properties,
    as well as one new one.
-                  
+   #day7 
+
+   -Inline Display
+
+   Every HTML element has a default display value that dictates
+    if it can share horizontal space with other elements. 
+    Some elements fill the entire browser from left to right
+     regardless of the size of their content. Other elements 
+     only take up as much horizontal space as their content 
+     requires and can be directly next to other elements.
+
+In this lesson, we’ll cover three values for the display property: 
+inline, block, and inline-block.
+
+Visual Comparison
+Imagine you have three boxes with each display property:
+
+Inline: They sit side by side, no matter the content size.
+Block: Each box takes up the whole width on a new line.
+Inline-block: They align side by side but respect width and height. -> combination na siya sa inline block ug block bahaviour ! ! ! 
+
+Display and Positioning
+Float               
+-Imagine you're playing with toys on a table. The table is your webpage, and the toys are parts of your webpage like images or boxes.
+
+Now, the float is like telling a toy to move to one side of the table. You can say:
+
+"Go to the left side of the table" (float: left).
+"Go to the right side of the table" (float: right).
+Other toys (or boxes) will then try to fit around it,
+ like kids gathering around the toy to play.
+
+ 
+Clear:
+The clear property is like saying, "Hey, 
+all the floating toys, stop right here, and don't let anything wrap around you."
+ It's like creating a clean space where no other toys can float beside it.
+ -> ang clear kay if mag gubot na ba kay nag gamit ug float , pwedy ra eh clear para 
+ maiwasan ang mag ka gubot sa mga conent ! ! !
