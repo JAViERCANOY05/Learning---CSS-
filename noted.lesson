@@ -210,3 +210,58 @@ all the floating toys, stop right here, and don't let anything wrap around you."
  It's like creating a clean space where no other toys can float beside it.
  -> ang clear kay if mag gubot na ba kay nag gamit ug float , pwedy ra eh clear para 
  maiwasan ang mag ka gubot sa mga conent ! ! !
+
+ #day 7 continue ! ! !
+ Introduction to Color
+
+ Foreground vs Background
+Before discussing the specifics of color,
+ it’s important to make two distinctions about color. Color can affect the following design aspects:
+
+Name ,Hex and RGB
+Color
+Hue, Saturation, and Lightness
+Hexadecimal or hex colors : #23F41A
+RGB : rgb(7, 210, 50)
+HSL : hsl(200, 20%, 50%)
+
+You can add Preview: Docs Loading link description
+opacity to color in RGB and HSL by adding a fourth value, 
+a, which is represented as a percentage.
+
+* Typography
+Serif and Sans-Serif
+You may be wondering what features make a font similar to another font.
+ The fonts Caslon, Georgia, and Times New Roman are Serif fonts.
+  Serif fonts have extra details on the ends of each letter,
+   as opposed to Sans-Serif fonts, which do not have the extra details.
+
+h1 {
+  font-family: Caslon, Georgia, 'Times New Roman', serif;
+}  this ? 
+
+ChatGPT said:
+ChatGPT
+Let's explain this the same way—like choosing crayons for your title, but now there's an extra crayon in the box!
+
+In this case:
+
+Caslon, Georgia, and 'Times New Roman' are still your first, second, and third favorite crayons.
+serif is like saying: "If none of my favorite crayons are available,
+ just use any crayon with little feet at the ends of the letters."
+Those little feet are called serifs in fonts. So if the browser can't find Caslon, Georgia,
+ or 'Times New Roman', it will pick a general serif font, like a backup crayon.
+
+Why Add serif?
+It ensures that even if the browser doesn’t have the specific fonts,
+ it will still use a font with a similar style—one that has serifs (the little feet)
+  instead of something plain like Arial.
+
+So it's like saying:
+
+Use Caslon if you have it.
+If not, use Georgia.
+If not, use 'Times New Roman'.
+If none of those are available, just pick any serif font.
+
+Font Weight
