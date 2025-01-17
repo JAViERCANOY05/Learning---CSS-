@@ -265,3 +265,33 @@ If not, use 'Times New Roman'.
 If none of those are available, just pick any serif font.
 
 Font Weight
+
+Keyword Values
+The font-weight property can take any one of these keyword values:
+
+bold: Bold font weight.
+normal: Normal font weight. This is the default value.
+lighter: One font weight lighter than the element’s parent value.
+bolder: One font weight bolder than the element’s parent value  
+
+Font Style
+Text Transformation
+Text Layout
+          letter-spacing: 2px;
+ Word Spacing
+          word-spacing: 0.3em;
+Line Height
+           line-height: 1.4;
+Text Alignment
+            text-align: right;
+Web Fonts
+#Day 8 Continue Web Fonts Using <link>
+
+web-font-DL = first mganita kag font DL nimo Zip mana unzip nimo then 
+upload nimo dere ang font https://www.fontsquirrel.com/tools/webfont-generator 
+after ana unzip nimo ang DL file then kuha and sud sa stylesheet css tas ibutang sa CSS 
+nimo nga sarili then check ang src ! ! ! reload and page check if ning reflect ! ! 
+
+
+
+
