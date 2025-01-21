@@ -284,14 +284,12 @@ Line Height
            line-height: 1.4;
 Text Alignment
             text-align: right;
-Web Fonts
 #Day 8 Continue Web Fonts Using <link>
+Web Fonts - duha and type sa pag gamit ug font dl or link online font ! ! 
+  
 
 web-font-DL = first mganita kag font DL nimo Zip mana unzip nimo then 
 upload nimo dere ang font https://www.fontsquirrel.com/tools/webfont-generator 
 after ana unzip nimo ang DL file then kuha and sud sa stylesheet css tas ibutang sa CSS 
 nimo nga sarili then check ang src ! ! ! reload and page check if ning reflect ! ! 
-
-
-
 
