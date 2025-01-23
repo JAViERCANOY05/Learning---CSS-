@@ -28,6 +28,7 @@ body {
   #flexstart {
     display: flex;
   justify-content: flex-start;
+  justify-items: center
   }
   
   #flexend {

@@ -40,3 +40,8 @@ baseline — the bottom of the content of all items will be aligned with each ot
 stretch — if possible, the items will stretch from top to bottom of the container 
 (this is the default value; elements with a specified height will not stretch; 
 elements with a minimum height or no height specified will stretch).
+#day 3
+Like the shorthand flex property, the shorthand 
+flex-flow property is used to declare both the 
+flex-wrap and flex-direction
+ properties in one
