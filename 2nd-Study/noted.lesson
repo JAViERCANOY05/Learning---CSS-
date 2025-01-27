@@ -45,3 +45,53 @@ Like the shorthand flex property, the shorthand
 flex-flow property is used to declare both the 
 flex-wrap and flex-direction
  properties in one
+
+ -- flex-flow: column wrap; ! ! !
+#day 2 GRID 
+In this lesson, we introduce a powerful tool called CSS Grid.
+ The grid can be used to layout entire web pages.
+  Whereas Flexbox is mostly useful for positioning items in a one-dimensional layout,
+   CSS grid is most useful for two-dimensional layouts, 
+   providing many tools for aligning and moving elements across both rows and columns.
+
+- By the end of this lesson, you will understand how to use these properties to create grid layouts:
+
+    grid-template-columns
+    grid-template-rows
+    grid-template
+    grid-template-area
+    row-gap / column-gap / gap
+    grid-row-start
+    grid-row-end
+    grid-column-start
+    grid-column-end
+    grid-area
+
+    base-of-me - and size sa row depent sa with nga ge declare ! ! !
+ 
+   - grid-template-columns: 100px 50% 200px;
+   - grid-template-rows: 40% 50% 50px;
+      - grid-template: 200px 300px / 20% 10% 70%;
+     - shorthand -> grid-template: [rows] / [columns];
+
+Grid Essentials
+Fraction
+7 min
+You may already be familiar with several types of responsive units
+ such as percentages (%), ems and rems. CSS Grid introduced a new relative
+
+ fr (Fractional Unit)
+ sizing unit — fr, like fraction.
+ 1fr is 100px 
+
+ rem (Root Em)
+ 1rem = 18px 
+
+ em (Element Relative Unit)
+
+
+Comparison Table:
+Unit	Relative To	Common Use Case
+fr	Fraction of free space in a grid	Grid layouts
+rem	Root element's font size	Consistent typography sizing
+em	Parent element's font size	Relative scaling for nested components
