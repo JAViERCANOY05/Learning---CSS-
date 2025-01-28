@@ -76,7 +76,6 @@ In this lesson, we introduce a powerful tool called CSS Grid.
 
 Grid Essentials
 Fraction
-7 min
 You may already be familiar with several types of responsive units
  such as percentages (%), ems and rems. CSS Grid introduced a new relative
 
@@ -89,9 +88,10 @@ You may already be familiar with several types of responsive units
 
  em (Element Relative Unit)
 
-
 Comparison Table:
 Unit	Relative To	Common Use Case
 fr	Fraction of free space in a grid	Grid layouts
 rem	Root element's font size	Consistent typography sizing
 em	Parent element's font size	Relative scaling for nested components
+
+ repeat -  grid-template: repeat(3, 1fr) / 3fr 50% 1fr;
