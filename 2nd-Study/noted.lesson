@@ -95,8 +95,11 @@ rem	Root element's font size	Consistent typography sizing
 em	Parent element's font size	Relative scaling for nested components
 
  repeat -  grid-template: repeat(3, 1fr) / 3fr 50% 1fr;
+    grid-template: row -repeat(3, 1fr) / column - repeat(4, 1fr) ;
 
- Grid Gap - gap: 20px 10px; gap: rows - 20px columns - 10px;
+
+ Grid Gap - gap: 20px 10px; 
+ syntax = gap: rows - 20px columns - 10px;
  row-gap : 20px;
  column-gap : 20px;
 
@@ -104,4 +107,25 @@ Grid Items
 Multiple Row Items
 
 Grid Essentials
-Grid Area
+Grid Area - >   grid-area: rs - 2 / cs - 3 / re - 4 / ce - span 5; 
+meaning is - > 
+grid-row-start
+grid-column-start
+grid-row-end
+grid-column-end
+---------------
+Grid Template Areas
+ grid-template-areas: "header header"
+                       "nav nav" 
+                       "info services"
+                       "footer footer";
+Advanced CSS Grid
+Grid Template Areas
+16 min
+The grid-template-areas property allows you to name sections of your web page to use as values in the 
+grid-row-start, 
+grid-row-end, 
+grid-column-start,
+grid-column-end, and 
+grid-area properties. This property is declared on grid containers.
+

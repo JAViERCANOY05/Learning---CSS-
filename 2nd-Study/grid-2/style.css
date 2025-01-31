@@ -1,8 +1,8 @@
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr );
-
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr ); */
+    grid-template: repeat(3,  1fr ) / repeat(4, 1fr) ;
   }
   
   .box1 {
@@ -44,4 +44,6 @@
     background-color: #fff9db;
     padding: 1em;
   }
-  
+  nav {
+    grid-area: nav;
+  } 
