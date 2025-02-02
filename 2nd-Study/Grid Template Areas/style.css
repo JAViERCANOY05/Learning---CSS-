@@ -1,0 +1,41 @@
+*{
+    box-sizing: content-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    display: grid;
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+    grid-template-areas: "header javier"
+                         "nav nav" 
+                         "info services"
+                         "footer footer";
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 100px 300px; 
+  }
+  
+  header {
+    grid-area: header;
+  } 
+  
+  .javier {
+    grid-area: javier;
+  } 
+  nav {
+    grid-area: nav;
+  } 
+  
+  .info {
+    grid-area: info;
+  } 
+  
+  .services {
+    grid-area: services;
+  }
+  
+  footer {
+    grid-area: footer;
+  } 
+  
