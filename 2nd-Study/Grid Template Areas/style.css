@@ -40,12 +40,13 @@
   main {
     display: grid;
     gap: 10px;
-    width: fit-content; /* Ensures the grid only takes necessary space */
-    margin: 0 auto; /* Centers it horizontally */
+    /* width: fit-content;  Ensures the grid only takes necessary space 
+    margin: 0 auto; Centers it horizontally */
 
     grid-template-columns: repeat(3, 400px);
     /* justify-items: stretch ; */
     justify-items: center  ;
+    justify-content: center;
 
   }
   .card {
