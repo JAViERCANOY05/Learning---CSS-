@@ -191,3 +191,17 @@ space-evenly — places an even amount of space between grid items and at either
 
 -justify-items:  is for row  a just 
 -align-items is for column a just 
+
+# day to continue 
+
+Implicit vs. Explicit Grid
+-Explicit Grids - default value ! ! ! 
+We can define a fixed number of lines and tracks that form a grid by using the properties
+ grid-template-rows, grid-template-columns, and grid-template-areas. 
+This manually defined grid is called the explicit grid.
+
+-Implicit Grids - automatically fill auto-fil and auto-fit
+If there are more grid items than cells in the grid or when a grid item is placed 
+outside of the explicit grid, the grid container automatically generates grid tracks 
+by adding grid lines to the grid. The explicit grid together with these additional 
+implicit tracks and lines forms the so called implicit grid.
