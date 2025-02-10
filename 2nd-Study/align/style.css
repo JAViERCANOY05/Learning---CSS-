@@ -14,9 +14,9 @@ header, footer {
         /* width: fit-content; 
     margin: 0 auto;  */
     justify-items: center;
-    justify-content: center;
-    align-items: stretch;
-    align-content: center;
+    /* justify-content: center; */
+    /* align-items: stretch; */
+    /* align-content: center; */
   }
   
   h2 {

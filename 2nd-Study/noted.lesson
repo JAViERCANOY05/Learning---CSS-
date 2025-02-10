@@ -205,3 +205,13 @@ If there are more grid items than cells in the grid or when a grid item is place
 outside of the explicit grid, the grid container automatically generates grid tracks 
 by adding grid lines to the grid. The explicit grid together with these additional 
 implicit tracks and lines forms the so called implicit grid.
+
+#day to continue
+- Grid Auto Flow
+
+row — specifies the new elements should fill rows 
+from left to right and create new rows when there are too many elements (default)
+column — specifies the new elements should fill columns 
+from top to bottom and create new columns when there are too many elements
+dense — this keyword invokes an algorithm that attempts 
+to fill holes earlier in the grid layout if smaller elements are added
